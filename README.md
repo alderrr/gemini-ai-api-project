@@ -25,22 +25,22 @@ Generate content from a raw text prompt.
 Upload an image and receive a generated response based on the prompt.
 
 **Form-Data:**
-- `image`: (file) PNG, JPEG, etc.
 - `prompt`: (string, optional)
+- `image`: (file) PNG, JPEG, etc.
 
 ### `POST /generate-from-document`
 Upload a document for Gemini to analyze.
 
 **Form-Data:**
-- `document`: (file) PDF, DOCX, etc.
 - `prompt`: (string, optional)
+- `document`: (file) PDF, DOCX, etc.
 
 ### `POST /generate-from-audio`
 Upload an audio file for transcription or analysis.
 
 **Form-Data:**
-- `audio`: (file) MP3, WAV, etc.
 - `prompt`: (string, optional)
+- `audio`: (file) MP3, WAV, etc.
 
 ## Setup
 
